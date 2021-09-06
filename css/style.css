@@ -14,10 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/*WIREFRAMES
-  .frame {
-    border: 1px solid red;
-  }*/
+/*WIREFRAMES*/
+.frame {
+  border: 1px solid red;
+}
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -25,11 +25,17 @@ body {
   font-size: 13px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 740px) {
   body {
     background-color: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 
+  /*CONTENT*/
   main {
     width: 1440px;
     height: 900px;
@@ -37,6 +43,18 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(210, 46%, 95%);
+  }
+
+  .content {
+    width: 1110px;
+    height: 575px;
+    display: grid;
+    grid-template-columns: 255px 300px 300px 255px;
+    grid-template-rows: 280px 30px 265px;
+    grid-template-areas:
+      "daniel daniel . jonathan . kira"
+      ". . . . . kira"
+      "jeanette . patrick patrick . kira";
   }
 }
 
@@ -85,7 +103,14 @@ body {
   margin-bottom: 71px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 740px) {
+  .review {
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    box-shadow: -5px 10px 30px -15px hsl(217, 19%, 35%);
+  }
+
   .daniel {
     width: 540px;
     height: 280px;
@@ -98,6 +123,7 @@ body {
     height: 280px;
     background-color: hsl(217, 19%, 35%);
     color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
   }
 
   .jeanette {
@@ -105,6 +131,7 @@ body {
     height: 265px;
     background-color: hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
+    margin-top: 15px;
   }
 
   .patrick {
@@ -144,7 +171,12 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 740px) {
+  .testi {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+  }
   .profile {
     font-size: 13px;
   }
@@ -193,7 +225,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 740px) {
   .details {
     line-height: 18px;
     font-size: 13px;
