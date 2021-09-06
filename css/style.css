@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&display=swap");
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*WIREFRAMES*/
+.frame {
+  border: 1px solid red;
+}
+
+/*BODY*/
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+/*CONTENT*/
+main {
+  width: 1440px;
+  height: 900px;
+}
