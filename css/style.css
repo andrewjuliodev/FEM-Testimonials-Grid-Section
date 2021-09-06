@@ -29,4 +29,56 @@ body {
 main {
   width: 1440px;
   height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 1110px;
+  height: 575px;
+  display: grid;
+  grid-template-columns: 855px 255px;
+  grid-template-rows: 265px 280px;
+  grid-template-areas:
+    "topLeft kira"
+    "bottomLeft kira";
+}
+
+.topLeft {
+  grid-area: topLeft;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomLeft {
+  grid-area: bottomLeft;
+  display: flex;
+  flex-direction: row;
+}
+
+.review3 {
+  grid-area: kira;
+  width: 255px;
+  height: 575px;
+}
+
+.review1 {
+  width: 540px;
+  height: 280px;
+}
+
+.review2 {
+  width: 255px;
+  height: 280px;
+}
+
+.review4 {
+  width: 255px;
+  height: 265px;
+}
+
+.review5 {
+  width: 540px;
+  height: 265px;
 }
