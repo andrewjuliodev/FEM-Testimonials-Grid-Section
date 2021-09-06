@@ -10,80 +10,63 @@ a {
   text-decoration: none;
 }
 
-/*WIREFRAMES
-.frame {
-  border: 1px solid red;
-}*/
-
-/*BODY*/
-body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 13px;
+html {
+  scroll-behavior: smooth;
 }
 
-/*CONTENT*/
-main {
-  width: 1440px;
-  height: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/*WIREFRAMES
+  .frame {
+    border: 1px solid red;
+  }*/
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
   background-color: hsl(210, 46%, 95%);
 }
 
-.content {
-  width: 1110px;
-  height: 575px;
-  display: grid;
-  grid-template-columns: ;
-  grid-template-rows: ;
-  grid-template-areas: ;
+/*CONTENT*/
+.review {
+  border-radius: 10px;
+  margin-bottom: 24px;
+  width: max(87.2%);
+  margin-left: 24px;
 }
 
 .daniel {
-  width: 540px;
-  height: 280px;
+  grid-area: daniel;
+  height: 444px;
   background-color: hsl(263, 55%, 52%);
   color: hsl(0, 0%, 100%);
+  margin-top: 71px;
 }
 
 .jonathan {
-  width: 255px;
-  height: 280px;
+  grid-area: jonathan;
+  height: 239px;
   background-color: hsl(217, 19%, 35%);
   color: hsl(0, 0%, 100%);
 }
 
-.kira {
-  grid-area: kira;
-  width: 255px;
-  height: 575px;
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(219, 29%, 14%);
-}
-
 .jeanette {
-  width: 255px;
-  height: 265px;
+  grid-area: jeanette;
+  height: 222px;
   background-color: hsl(0, 0%, 100%);
   color: hsl(219, 29%, 14%);
 }
 
 .patrick {
-  width: 540px;
-  height: 265px;
+  grid-area: patrick;
+  height: 384px;
   background-color: hsl(219, 29%, 14%);
   color: hsl(0, 0%, 100%);
 }
 
-.review {
-  border-radius: 10px;
-  box-shadow: -5px 10px 30px -15px hsl(217, 19%, 35%);
+.kira {
+  grid-area: kira;
+  height: 440px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+  margin-bottom: 71px;
 }
 
 /*TESTIMONIAL CONTENTS*/
@@ -97,20 +80,19 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 15px;
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .profile img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .name {
   font-weight: 500;
-  margin-top: -1px;
-  margin-bottom: 1px;
 }
 
 .verified {
@@ -120,9 +102,9 @@ main {
 
 .testimonial {
   font-weight: 600;
-  font-size: 19px;
-  height: 65px;
-  margin-bottom: 25px;
+  font-size: 20px;
+  margin-top: 15px;
+  letter-spacing: 0.15px;
 }
 
 .details {
@@ -130,4 +112,5 @@ main {
   letter-spacing: 0.2px;
   line-height: 18px;
   font-size: 13px;
+  margin-top: 15px;
 }
