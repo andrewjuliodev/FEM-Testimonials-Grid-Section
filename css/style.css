@@ -14,10 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/*WIREFRAMES*/
+/*WIREFRAMES
 .frame {
   border: 1px solid red;
-}
+}*/
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -49,12 +49,12 @@ body {
     width: 1110px;
     height: 575px;
     display: grid;
-    grid-template-columns: 255px 300px 300px 255px;
+    grid-template-columns: 255px 300px 270px 30px 255px;
     grid-template-rows: 280px 30px 265px;
     grid-template-areas:
-      "daniel daniel . jonathan . kira"
-      ". . . . . kira"
-      "jeanette . patrick patrick . kira";
+      "daniel daniel jonathan . kira"
+      ". . . . kira"
+      "jeanette patrick patrick . kira";
   }
 }
 
@@ -116,6 +116,7 @@ body {
     height: 280px;
     background-color: hsl(263, 55%, 52%);
     color: hsl(0, 0%, 100%);
+    margin-top: 0;
   }
 
   .jonathan {
@@ -123,7 +124,7 @@ body {
     height: 280px;
     background-color: hsl(217, 19%, 35%);
     color: hsl(0, 0%, 100%);
-    margin-bottom: 20px;
+    margin-left: 15px;
   }
 
   .jeanette {
@@ -131,7 +132,7 @@ body {
     height: 265px;
     background-color: hsl(0, 0%, 100%);
     color: hsl(219, 29%, 14%);
-    margin-top: 15px;
+    margin: 0;
   }
 
   .patrick {
@@ -139,6 +140,7 @@ body {
     height: 265px;
     background-color: hsl(219, 29%, 14%);
     color: hsl(0, 0%, 100%);
+    margin-left: 30px;
   }
 
   .kira {
