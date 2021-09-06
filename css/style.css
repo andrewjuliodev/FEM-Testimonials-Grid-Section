@@ -40,26 +40,26 @@ main {
   width: 1110px;
   height: 575px;
   display: grid;
-  grid-template-columns: 855px 255px;
-  grid-template-rows: 265px 280px;
-  grid-template-areas:
-    "topLeft kira"
-    "bottomLeft kira";
+  grid-template-columns: ;
+  grid-template-rows: ;
+  grid-template-areas: ;
 }
 
-.topLeft {
-  grid-area: topLeft;
-  display: flex;
-  flex-direction: row;
+.daniel {
+  width: 540px;
+  height: 280px;
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
 }
 
-.bottomLeft {
-  grid-area: bottomLeft;
-  display: flex;
-  flex-direction: row;
+.jonathan {
+  width: 255px;
+  height: 280px;
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
 }
 
-.review3 {
+.kira {
   grid-area: kira;
   width: 255px;
   height: 575px;
@@ -67,28 +67,14 @@ main {
   color: hsl(219, 29%, 14%);
 }
 
-.review1 {
-  width: 540px;
-  height: 280px;
-  background-color: hsl(263, 55%, 52%);
-  color: hsl(0, 0%, 100%);
-}
-
-.review2 {
-  width: 255px;
-  height: 280px;
-  background-color: hsl(217, 19%, 35%);
-  color: hsl(0, 0%, 100%);
-}
-
-.review4 {
+.jeanette {
   width: 255px;
   height: 265px;
   background-color: hsl(0, 0%, 100%);
   color: hsl(219, 29%, 14%);
 }
 
-.review5 {
+.patrick {
   width: 540px;
   height: 265px;
   background-color: hsl(219, 29%, 14%);
@@ -98,16 +84,6 @@ main {
 .review {
   border-radius: 10px;
   box-shadow: -5px 10px 30px -15px hsl(217, 19%, 35%);
-}
-
-.review2,
-.review5 {
-  margin-left: 28px;
-}
-
-.review4,
-.review5 {
-  margin-top: 45px;
 }
 
 /*TESTIMONIAL CONTENTS*/
