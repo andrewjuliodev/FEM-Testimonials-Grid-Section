@@ -22,6 +22,22 @@ html {
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: none;
+  }
+
+  main {
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+  }
 }
 
 /*CONTENT*/
@@ -69,6 +85,44 @@ body {
   margin-bottom: 71px;
 }
 
+@media screen and (min-width: 1440px) {
+  .daniel {
+    width: 540px;
+    height: 280px;
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .jonathan {
+    width: 255px;
+    height: 280px;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .jeanette {
+    width: 255px;
+    height: 265px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+  }
+
+  .patrick {
+    width: 540px;
+    height: 265px;
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .kira {
+    grid-area: kira;
+    width: 255px;
+    height: 575px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+  }
+}
+
 /*TESTIMONIAL CONTENTS*/
 .testi {
   display: flex;
@@ -82,6 +136,18 @@ body {
   align-items: center;
   font-size: 14px;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 420px) {
+  .profile {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .profile {
+    font-size: 13px;
+  }
 }
 
 .profile img {
@@ -100,6 +166,12 @@ body {
   font-size: 12px;
 }
 
+@media screen and (min-width: 420px) {
+  .verified {
+    font-size: 14px;
+  }
+}
+
 .testimonial {
   font-weight: 600;
   font-size: 20px;
@@ -113,4 +185,17 @@ body {
   line-height: 18px;
   font-size: 13px;
   margin-top: 15px;
+}
+
+@media screen and (min-width: 420px) {
+  .details {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .details {
+    line-height: 18px;
+    font-size: 13px;
+  }
 }
