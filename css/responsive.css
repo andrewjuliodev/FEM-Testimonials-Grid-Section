@@ -14,10 +14,6 @@
   a {
     text-decoration: none;
   }
-
-  html {
-      scroll-behavior: smooth;
-  }
   
   /*WIREFRAMES
   .frame {
@@ -25,9 +21,7 @@
   }*/
 
   body {
-    display: flex;
-    justify-content: center;
-    font-family: 'Barlow Semi Condensed',sans-serif;
+      font-family: 'Barlow Semi Condensed',sans-serif;
   }
 
   /*CONTENT*/
